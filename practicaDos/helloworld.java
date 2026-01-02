@@ -16,12 +16,12 @@ public class helloworld {
         // se cierra porque puede producir fugas de recursos. Cerrar un
         // Scanner que envuelve System.in también cierra System.in, por eso
         // en programas interactivos a veces se opta por no cerrarlo aquí.
-   /*     Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Ahora vamos a practicar usando el Scanner: Ingresemos Hello World");
         String prueba = scanner.nextLine();
         System.out.println(prueba);
         scanner.close();
-El scanner system.in y system.out funcionan como los streams en C que tener que abrirlos y cerrarlos 
+/*El scanner system.in y system.out funcionan como los streams en C que tener que abrirlos y cerrarlos 
 */
 HashMap<String, Integer> examScores = new HashMap<String, Integer>();
 
