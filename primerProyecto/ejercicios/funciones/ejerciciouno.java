@@ -2,11 +2,13 @@ package JavaProjects.primerProyecto.ejercicios.funciones;
 
 import java.util.Scanner;
 
+import JavaProjects.primerProyecto.Auto;
+
 public class ejerciciouno {
     public static void main(String[] args){
 
         //Hacer una calculadora
-        Scanner sc = new Scanner(System.in);
+    /*    Scanner sc = new Scanner(System.in);
         System.out.println("Bienvenido a la calculadora");
 
         System.out.println("eliga la operacion a realizar: suma(1), resta(2), division(3) o multiplicacion(4)");
@@ -80,6 +82,21 @@ public class ejerciciouno {
     public static int division( int valorUno, int valorDos){
         int div = 0;
         div = valorUno / valorDos;
+        
         return div;
-    }
-}
+        
+    }*/
+
+Auto sedan = new Auto(5, "Citroen", "C4 Cactus", 30.0f);
+Auto pickup = new Auto();
+
+pickup.setId(2);
+pickup.setModelo("Ford");
+pickup.setNombre("Ranger");
+pickup.setPrecio(40.5f);
+
+System.out.println("la marca del sedan es: " + sedan.getMarca() );
+System.out.println("-------------------------------------------");
+System.out.println("La marca de la pickup es: " + pickup.getMarca());
+System.out.println("Esta es la info de la pickup: " + pickup);
+}}
