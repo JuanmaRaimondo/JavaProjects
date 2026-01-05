@@ -3,6 +3,7 @@ package JavaProjects.primerProyecto.ejercicios.funciones;
 import java.util.Scanner;
 
 import JavaProjects.primerProyecto.Auto;
+import JavaProjects.primerProyecto.Camiones;
 
 public class ejerciciouno {
     public static void main(String[] args){
@@ -99,4 +100,9 @@ System.out.println("la marca del sedan es: " + sedan.getMarca() );
 System.out.println("-------------------------------------------");
 System.out.println("La marca de la pickup es: " + pickup.getMarca());
 System.out.println("Esta es la info de la pickup: " + pickup);
+
+Auto scania = new Camiones();
+scania.acelerar();
+
+
 }}
