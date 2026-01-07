@@ -1,8 +1,8 @@
 package JavaProjects.primerProyecto;
 
 public class Motos extends Auto {
-    int cilindrada;
-    boolean automatica;
+  private  int cilindrada;
+   private boolean automatica;
 
 
 public Motos(){};

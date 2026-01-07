@@ -1,6 +1,6 @@
 package JavaProjects.primerProyecto.ejercicios.funciones;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 import JavaProjects.primerProyecto.Auto;
 import JavaProjects.primerProyecto.Camiones;
@@ -87,10 +87,10 @@ public class ejerciciouno {
         return div;
         
     }*/
-
+//Creo dos objetos auto, uno vacio y otro con todos los datos.
 Auto sedan = new Auto(5, "Citroen", "C4 Cactus", 30.0f);
 Auto pickup = new Auto();
-
+//Asigno valores con los setter al auto vacio
 pickup.setId(2);
 pickup.setModelo("Ford");
 pickup.setNombre("Ranger");
@@ -101,6 +101,8 @@ System.out.println("-------------------------------------------");
 System.out.println("La marca de la pickup es: " + pickup.getMarca());
 System.out.println("Esta es la info de la pickup: " + pickup);
 
+
+//Creo un objeto Camion que hereda del tipo de dato Auto y luego llamo al metodo acelerar con polimorfismo
 Auto scania = new Camiones();
 scania.acelerar();
 
