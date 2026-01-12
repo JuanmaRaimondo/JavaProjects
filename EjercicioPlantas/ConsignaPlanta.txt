@@ -1,0 +1,18 @@
+Ejercicio N° 1
+. Crear una clase Planta con los atributos: nombre, alto del tallo, tieneHojas, clima ideal.
+(con sus métodos y constructores correspondientes)
+. Crear sus clases hijas que compartan sus atributos y métodos:
+o Arbol: variedad, tipo de tronco, radio de tronco, color, tipo de hojas.
+o Flor: color de pétalos, cantidad promedio de pétalos, color del pistilo, color de los
+pétalos, variedad de flor, estación que florece
+o Arbusto: Ancho arbusto, esDomestico, variedad arbusto, color de hojas,
+sePodaONo
+· Una vez creada las clases crear los siguientes métodos:
+o Árbol: método para mostrar un mensaje en pantalla que diga "Hola soy un árbol"
+o Flor: método para mostrar un mensaje en pantalla que diga "Hola soy una flor"
+o Arbusto: metodo para mostrar un mensaje en pantalla que diga "Hola soy un
+arbusto"
+
+· Crear en el Main un objeto de cada clase hija. Llamar a los 3 métodos desde cada objeto.
+. Cambiar el modificador de acceso de los metodos de public a private. Intentar acceder
+desde el main a estos metodos.
