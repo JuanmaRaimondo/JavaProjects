@@ -39,4 +39,12 @@ public class Alumnos {
 
     public String getAnioDeCursado() { return anioDeCursado; }
     public void setAnioDeCursado(String anioDeCursado) { this.anioDeCursado = anioDeCursado; }
+
+    @Override
+    public String toString() {
+        return "Alumnos [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", anioDeCursado="
+                + anioDeCursado + "]";
+    }
+
+    
 }
